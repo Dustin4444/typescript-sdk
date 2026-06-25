@@ -75,7 +75,7 @@
         "typedoc": "catalog:devTools",
         "typescript": "catalog:devTools",
         "typescript-eslint": "catalog:devTools",
-        "vitest": "catalog:devTools",
+        "vitest": "4.1.8",
         "zod": "catalog:runtimeShared"
     },
     "resolutions": {
