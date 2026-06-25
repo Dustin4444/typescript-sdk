@@ -40,7 +40,7 @@
         "better-auth": "^1.4.17",
         "cors": "catalog:runtimeServerOnly",
         "express": "catalog:runtimeServerOnly",
-        "hono": "catalog:runtimeServerOnly",
+        "hono": "4.12.25",
         "valibot": "catalog:devTools",
         "zod": "catalog:runtimeShared"
     },
