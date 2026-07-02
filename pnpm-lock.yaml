@@ -111,8 +111,8 @@ catalogs:
       specifier: ^5.2.0
       version: 5.8.4
     hono:
-      specifier: ^4.11.4
-      version: 4.12.9
+      specifier: ^4.12.25
+      version: 4.12.27
     raw-body:
       specifier: ^3.0.0
       version: 3.0.2
@@ -306,7 +306,7 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: catalog:runtimeServerOnly
-        version: 1.19.11(hono@4.12.9)
+        version: 1.19.11(hono@4.12.27)
       '@mcp-examples/shared':
         specifier: workspace:^
         version: link:shared
@@ -351,7 +351,7 @@ importers:
         version: 5.8.4
       hono:
         specifier: catalog:runtimeServerOnly
-        version: 4.12.9
+        version: 4.12.27
       open:
         specifier: ^11.0.0
         version: 11.0.0
@@ -602,7 +602,7 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: catalog:runtimeServerOnly
-        version: 1.19.11(hono@4.12.9)
+        version: 1.19.11(hono@4.12.27)
       '@mcp-examples/shared':
         specifier: workspace:*
         version: link:../shared
@@ -1594,7 +1594,7 @@ importers:
     dependencies:
       hono:
         specifier: catalog:runtimeServerOnly
-        version: 4.12.9
+        version: 4.12.27
     devDependencies:
       '@eslint/js':
         specifier: catalog:devTools
@@ -1643,10 +1643,10 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: catalog:runtimeServerOnly
-        version: 1.19.11(hono@4.12.9)
+        version: 1.19.11(hono@4.12.27)
       hono:
         specifier: catalog:runtimeServerOnly
-        version: 4.12.9
+        version: 4.12.27
     devDependencies:
       '@eslint/js':
         specifier: catalog:devTools
@@ -1898,7 +1898,7 @@ importers:
     devDependencies:
       '@hono/node-server':
         specifier: catalog:runtimeServerOnly
-        version: 1.19.11(hono@4.12.9)
+        version: 1.19.11(hono@4.12.27)
       '@modelcontextprotocol/client':
         specifier: workspace:^
         version: link:../../packages/client
@@ -1958,7 +1958,7 @@ importers:
         version: 5.8.4
       hono:
         specifier: catalog:runtimeServerOnly
-        version: 4.12.9
+        version: 4.12.27
       jose:
         specifier: catalog:runtimeClientOnly
         version: 6.2.2
@@ -5178,6 +5178,10 @@ packages:
   hast-util-whitespace@3.0.0:
     resolution: {integrity: sha512-88JUN06ipLwsnv+dVn+OIYOvAuvBMy/Qoi6O7mQHxdPXpjy+Cd6xRkWwux7DKO+4sYILtLBRIKgsdpS2gQc7qw==}
 
+  hono@4.12.27:
+    resolution: {integrity: sha512-1yrb/+w6HWQJrUCLkJ2IF5jNIPvvFkblV5RNOYl6bV+OA6p9GLcMpHFFGTosSvHvcAUibuUukRqhlYI4z32C7Q==}
+    engines: {node: '>=16.9.0'}
+
   hono@4.12.9:
     resolution: {integrity: sha512-wy3T8Zm2bsEvxKZM5w21VdHDDcwVS1yUFFY6i8UobSsKfFceT7TOwhbhfKsDyx7tYQlmRM5FLpIuYvNFyjctiA==}
     engines: {node: '>=16.9.0'}
@@ -7604,6 +7608,10 @@ snapshots:
       - supports-color
       - utf-8-validate
 
+  '@hono/node-server@1.19.11(hono@4.12.27)':
+    dependencies:
+      hono: 4.12.27
+
   '@hono/node-server@1.19.11(hono@4.12.9)':
     dependencies:
       hono: 4.12.9
@@ -9907,6 +9915,8 @@ snapshots:
   hast-util-whitespace@3.0.0:
     dependencies:
       '@types/hast': 3.0.4
+
+  hono@4.12.27: {}
 
   hono@4.12.9: {}
 
