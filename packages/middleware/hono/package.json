@@ -61,7 +61,7 @@
         "@modelcontextprotocol/eslint-config": "workspace:^",
         "@eslint/js": "catalog:devTools",
         "@typescript/native-preview": "catalog:devTools",
-        "eslint": "catalog:devTools",
+        "eslint": "10.0.0",
         "eslint-config-prettier": "catalog:devTools",
         "eslint-plugin-n": "catalog:devTools",
         "prettier": "catalog:devTools",
