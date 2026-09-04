@@ -70,8 +70,8 @@ catalogs:
       specifier: ^8.48.1
       version: 8.57.2
     valibot:
-      specifier: ^1.2.0
-      version: 1.3.1
+      specifier: ^1.4.2
+      version: 1.4.2
     vite-tsconfig-paths:
       specifier: ^5.1.4
       version: 5.1.4
@@ -336,7 +336,7 @@ importers:
         version: link:../packages/server-legacy
       '@valibot/to-json-schema':
         specifier: catalog:devTools
-        version: 1.6.0(valibot@1.3.1(typescript@5.9.3))
+        version: 1.6.0(valibot@1.4.2(typescript@5.9.3))
       ajv:
         specifier: catalog:runtimeShared
         version: 8.18.0
@@ -360,7 +360,7 @@ importers:
         version: 11.0.0
       valibot:
         specifier: catalog:devTools
-        version: 1.3.1(typescript@5.9.3)
+        version: 1.4.2(typescript@5.9.3)
       zod:
         specifier: catalog:runtimeShared
         version: 4.3.6
@@ -956,13 +956,13 @@ importers:
         version: link:../../packages/server
       '@valibot/to-json-schema':
         specifier: catalog:devTools
-        version: 1.6.0(valibot@1.3.1(typescript@5.9.3))
+        version: 1.6.0(valibot@1.4.2(typescript@5.9.3))
       arktype:
         specifier: catalog:devTools
         version: 2.2.0
       valibot:
         specifier: catalog:devTools
-        version: 1.3.1(typescript@5.9.3)
+        version: 1.4.2(typescript@5.9.3)
       zod:
         specifier: catalog:runtimeShared
         version: 4.3.6
@@ -2034,7 +2034,7 @@ importers:
         version: 5.0.6
       '@valibot/to-json-schema':
         specifier: catalog:devTools
-        version: 1.6.0(valibot@1.3.1(typescript@5.9.3))
+        version: 1.6.0(valibot@1.4.2(typescript@5.9.3))
       arktype:
         specifier: catalog:devTools
         version: 2.2.0
@@ -2061,7 +2061,7 @@ importers:
         version: 5.9.3
       valibot:
         specifier: catalog:devTools
-        version: 1.3.1(typescript@5.9.3)
+        version: 1.4.2(typescript@5.9.3)
       vitest:
         specifier: catalog:devTools
         version: 4.1.2(@opentelemetry/api@1.9.1)(@types/node@25.5.0)(vite@7.3.0(@types/node@25.5.0)(tsx@4.21.0)(yaml@2.8.3))
@@ -2124,7 +2124,7 @@ importers:
         version: link:../../common/vitest-config
       '@valibot/to-json-schema':
         specifier: catalog:devTools
-        version: 1.6.0(valibot@1.3.1(typescript@5.9.3))
+        version: 1.6.0(valibot@1.4.2(typescript@5.9.3))
       arktype:
         specifier: catalog:devTools
         version: 2.2.0
@@ -2133,7 +2133,7 @@ importers:
         version: 7.2.2
       valibot:
         specifier: catalog:devTools
-        version: 1.3.1(typescript@5.9.3)
+        version: 1.4.2(typescript@5.9.3)
       vitest:
         specifier: catalog:devTools
         version: 4.1.2(@opentelemetry/api@1.9.1)(@types/node@25.5.0)(vite@7.3.0(@types/node@25.5.0)(tsx@4.21.0)(yaml@2.8.3))
@@ -6689,8 +6689,8 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  valibot@1.3.1:
-    resolution: {integrity: sha512-sfdRir/QFM0JaF22hqTroPc5xy4DimuGQVKFrzF1YfGwaS1nJot3Y8VqMdLO2Lg27fMzat2yD3pY5PbAYO39Gg==}
+  valibot@1.4.2:
+    resolution: {integrity: sha512-gjdCvJ6d3RyHAneqxMYMW9QMCwYMb3jpOO0IyHZV1bnRHFBHrX3VkIILt5XYR0WhwHiH7Mty8ovuPZ/O3gamrg==}
     peerDependencies:
       typescript: '>=5'
     peerDependenciesMeta:
@@ -8587,9 +8587,9 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
-  '@valibot/to-json-schema@1.6.0(valibot@1.3.1(typescript@5.9.3))':
+  '@valibot/to-json-schema@1.6.0(valibot@1.4.2(typescript@5.9.3))':
     dependencies:
-      valibot: 1.3.1(typescript@5.9.3)
+      valibot: 1.4.2(typescript@5.9.3)
 
   '@vitejs/plugin-vue@5.2.4(vite@5.4.21(@types/node@24.12.0))(vue@3.5.38(typescript@5.9.3))':
     dependencies:
@@ -11535,7 +11535,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  valibot@1.3.1(typescript@5.9.3):
+  valibot@1.4.2(typescript@5.9.3):
     optionalDependencies:
       typescript: 5.9.3
 
