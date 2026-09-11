@@ -69,7 +69,7 @@
         "@types/node": "^24.10.1",
         "@types/supertest": "catalog:devTools",
         "@typescript/native-preview": "catalog:devTools",
-        "eslint": "catalog:devTools",
+        "eslint": "10.0.0",
         "eslint-config-prettier": "catalog:devTools",
         "eslint-plugin-n": "catalog:devTools",
         "fast-glob": "^3.3.3",
